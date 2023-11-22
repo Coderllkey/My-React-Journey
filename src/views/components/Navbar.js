@@ -9,7 +9,11 @@ const Navbar = _ =>{
   <div class="container">
     <a class="navbar-brand  fs-4" href="#">My-App</a>
     <button class="btn text-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Menu</button>
+    <div className='menu-icon'>
+        <span></span>
+        <span></span>
 
+    </div>
   
   </div>
 </nav>
