@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "mm";
+    font-weight: normal;
+    src: url("https://github.com/kosanlinhtike/unicode/blob/main/mm_unicode_font/MyanmarSagar/MyanmarSagar.ttf");
+}
+*{
+    font-family: mm;
+    /* list-style-type: ; */
+}

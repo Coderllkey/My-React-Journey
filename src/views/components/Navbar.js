@@ -1,6 +1,5 @@
 import {   NavLink } from 'react-router-dom';
 
-
 const Navbar = _ =>{
     return (
       <div>
@@ -8,12 +7,8 @@ const Navbar = _ =>{
 <nav class="navbar navbar-expand-lg col-lg-9 mx-auto">
   <div class="container">
     <a class="navbar-brand  fs-4" href="#">My-App</a>
-    <button class="btn text-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Menu</button>
-    <div className='menu-icon'>
-        <span></span>
-        <span></span>
-
-    </div>
+    <button class="btn text-dark " data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" type="button" >Menu <i class="bi bi-three-dots-vertical"></i> </button>
+ 
   
   </div>
 </nav>

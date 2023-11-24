@@ -5,6 +5,7 @@ import Story from "./views/pages/story";
 import Contact from './views/pages/contact';
 import Service from './views/pages/service';
 import Navbar from './views/components/Navbar';
+import Footer from './views/components/Footer';
 
 
 const App = _ =>{
@@ -23,6 +24,7 @@ const App = _ =>{
 
 
       </Routes>
+      <Footer/>
     </div>
   )
 }
